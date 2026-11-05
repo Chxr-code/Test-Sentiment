@@ -1,0 +1,8 @@
+﻿split_a,split_b,text,labels_a,labels_b,label_consistent
+train,validation,น้องอยากกิน,neu,pos,False
+train,validation,อยู่ชมแพมีไหม,q,pos,False
+train,test,นกแอร์กับแอร์เอเชียเที่ยวบินไประนองยกเลิกมั้ยค่ะ,q,neu,False
+train,test,บิ๊กซีลำพูนร่วมมั้ยคะ,neu,q,False
+train,test,หรือชัยนาทมีป่าวหว่า,q,pos,False
+train,test,แล้วโปรวันพ่ออะไรค่ะ,pos,q,False
+train,test,โลตัสกำแพงเพชร ลดมั้ยค่ะ,q,neg,False

@@ -1,0 +1,19 @@
+{
+    "train": {
+        "original": 21628,
+        "cleaned": 21589,
+        "removed": 39,
+        "internal_conflict_groups": 16
+    },
+    "validation": {
+        "original": 2404,
+        "cleaned": 2402,
+        "removed": 2,
+        "internal_conflict_groups": 1
+    },
+    "test": {
+        "original": 2671,
+        "cleaned": 2671,
+        "removed": 0
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "model": "Baseline",
+    "best_epoch": 9,
+    "best_validation_macro_f1": 0.4848592678468677,
+    "epochs_completed": 10,
+    "checkpoint": "artifacts/checkpoints/baseline_best.pt",
+    "hyperparameters": {
+        "seed": 42,
+        "batch_size": 64,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "embedding_dim": 128,
+        "dropout": 0.3,
+        "max_epochs": 10,
+        "patience": 3,
+        "loss": "CrossEntropyLoss",
+        "optimizer": "AdamW"
+    }
+}

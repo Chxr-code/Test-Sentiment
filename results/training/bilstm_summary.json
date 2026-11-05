@@ -1,0 +1,22 @@
+{
+    "model": "BiLSTM",
+    "best_epoch": 5,
+    "best_validation_macro_f1": 0.5806785247683649,
+    "epochs_completed": 8,
+    "checkpoint": "artifacts/checkpoints/bilstm_best.pt",
+    "hyperparameters": {
+        "seed": 42,
+        "batch_size": 64,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "embedding_dim": 128,
+        "hidden_dim": 128,
+        "num_layers": 1,
+        "bidirectional": true,
+        "dropout": 0.3,
+        "max_epochs": 10,
+        "patience": 3,
+        "loss": "CrossEntropyLoss",
+        "optimizer": "AdamW"
+    }
+}

@@ -1,0 +1,4 @@
+﻿split_a,split_b,duplicate_texts
+train,validation,2
+train,test,5
+validation,test,0

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Jupyter / editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# Streamlit secrets (never push)
+.streamlit/secrets.toml

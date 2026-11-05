@@ -1,0 +1,13 @@
+﻿true_label,predicted_label,count
+pos,neu,200
+neu,neg,156
+neg,neu,153
+neu,pos,100
+pos,neg,55
+q,neu,18
+neg,pos,15
+neu,q,14
+q,neg,6
+pos,q,4
+q,pos,3
+neg,q,2

@@ -1,0 +1,13 @@
+{
+    "model": "BiLSTM",
+    "evaluation_split": "test",
+    "test_samples": 2671,
+    "checkpoint_epoch": 5,
+    "best_validation_macro_f1": 0.5806785247683649,
+    "test_accuracy": 0.6825159116435792,
+    "test_macro_f1": 0.5502272976570031,
+    "test_weighted_f1": 0.6740020137367366,
+    "batch_size": 64,
+    "device": "cuda",
+    "test_used_for_model_selection_or_tuning": false
+}

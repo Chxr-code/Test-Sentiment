@@ -1,0 +1,16 @@
+{
+    "tokenizer": "pythainlp.newmm",
+    "min_freq": 2,
+    "max_len": 150,
+    "padding_token": "<PAD>",
+    "padding_index": 0,
+    "unknown_token": "<UNK>",
+    "unknown_index": 1,
+    "vocab_size": 15222,
+    "label_mapping": {
+        "pos": 0,
+        "neu": 1,
+        "neg": 2,
+        "q": 3
+    }
+}

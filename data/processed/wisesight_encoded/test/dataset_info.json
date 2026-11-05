@@ -1,0 +1,71 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "wisesight_sentiment",
+  "dataset_name": "wisesight_sentiment",
+  "dataset_size": 6587845,
+  "description": "",
+  "download_size": 3195627,
+  "features": {
+    "texts": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category": {
+      "names": [
+        "pos",
+        "neu",
+        "neg",
+        "q"
+      ],
+      "_type": "ClassLabel"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "labels": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 9783472,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 5331511,
+      "num_examples": 21628,
+      "dataset_name": "wisesight_sentiment"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 593867,
+      "num_examples": 2404,
+      "dataset_name": "wisesight_sentiment"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 662467,
+      "num_examples": 2671,
+      "dataset_name": "wisesight_sentiment"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

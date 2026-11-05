@@ -1,0 +1,25 @@
+{
+    "model": "TextCNN",
+    "best_epoch": 5,
+    "best_validation_macro_f1": 0.5188779969265224,
+    "epochs_completed": 8,
+    "checkpoint": "artifacts/checkpoints/textcnn_best.pt",
+    "hyperparameters": {
+        "seed": 42,
+        "batch_size": 64,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "embedding_dim": 128,
+        "num_filters": 100,
+        "kernel_sizes": [
+            2,
+            3,
+            4
+        ],
+        "dropout": 0.3,
+        "max_epochs": 10,
+        "patience": 3,
+        "loss": "CrossEntropyLoss",
+        "optimizer": "AdamW"
+    }
+}
